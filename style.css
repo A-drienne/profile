@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 20px;
+  background-color: rgb(113, 207, 119);
+  line-height: 1.5;
+}
+
+.container {
+  text-align: center;
+}
+
+.card-green {
+  background-color: rgb(201, 244, 203);
+  /* font-family: 'Times New Roman', serif; */
+  color: #3178E9;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(126, 124, 124, 0.5);
+  margin: 70px;
+  padding: 70px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; /* if you want the light version */
+}
+
+.title:hover{
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 25px;
+  color: #51A0FD;
+  margin: 10px;
+}
+
+.description-centered {
+  margin: 20px 40px;
+}
+
+.h2-spacing {
+  margin: 20px 40px;
+}
+
+/* .logos-widen {} */
+
+#profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px
+}
