@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
   font-size: 20px;
-  background-color: rgb(113, 207, 119);
+  background-color: rgb(180, 242, 184);
   line-height: 1.5;
 }
 
@@ -33,7 +33,7 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300; /* if you want the light version */
   font-size: 25px;
-  color: #51A0FD;
+  color: #fdd008;
   margin: 10px;
 }
 
