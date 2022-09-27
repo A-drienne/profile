@@ -5,34 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adrienne's Angelic Intro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1f9daf0ce8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
   </head>
 
 
   <body>
-    <div class="container">
-      <div class="card-green" id="intro">
-        <h1 class="title">Bonjour, I'm Adrienne </h1>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <img src="images/photo.jpg" alt="Adrienne profile photo" id="profile">
-        <h2>Sustainability Officer 🌳 and Programmer 💻</h2>
-        <p class="description-centered">I love back-end projects, Quidditch and D&D. There is so much to
-          write but I don't have anything in my head right now. Sometimes I
-          chase the bees away from  people who are afraid of them and that's
-          cool. Also I really like lemon but only when it is combined with
-          sugar otherwise it can get so overwhelming.</p>
-      </div>
+        <!-- <div class= "d-flex flex-row justify-content-between">
+          <div class="p-2"><p>Adrienne Robert-Vassy</p></div>
+            <div class="p-2"><p>Home | About | Skills | Portfolio | Contact</p></div>
+          </div> -->
 
-      <div class="card-green">
-        <h2 class="h2-spacing">Follow me here:</h2>
-        <p class="logos-widen">   <a href="https://github.com/A-drienne" target="_blank">
-          <i class="fa-brands fa-square-github"></i>
-        </a></p>
-        <p class="logos-widen"> <a href="https://www.linkedin.com/in/adrienne-robertvassy/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a></p>
+        <div class="collapse navbar-collapse align-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
       </div>
     </div>
+
+
+
+
+
+    <div class="container">
+
+      <div class="top-blue banner">
+        <div class="d-flex justify-content-around">
+          <div class="title align-content-start"><h1>BON <br> JOUR</h1></div>
+          <div class="p-10"><img src="images/photo.jpg" alt="Adrienne profile photo" id="profile"></div>
+          <!-- <i class="fa-regular fa-arrow-down-long"></i> -->
+        </div>
+      </div>
+
+
+
+      <div class="bottom-description">
+
+        <p>About</p>
+        <h2>Adrienne Robert-Vassy</h2>
+        <h3>Sustainability Officer 🌳 and Fullstack Developer 💻</h3>
+        <p class="description-centered">
+
+          Fresh off Le Wagon, ready to tackle fullstack projects. Special interest in banking and sustainable development.
+          Quidditch team captain. D&D enthousiast.
+        </p>
+
+        <div class="d-flex">
+          <a href="https://www.linkedin.com/in/adrienne-robertvassy/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/A-drienne" target="_blank">
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="projects" >
+        <h2>My projects</h2>
+        <h3>Freddie's Fiets</h3>
+        <p class="description-centered">
+          AirBnB clone based on bikes and Freddie Mercury.
+          Allows users to rent and lease bikes from all over the Netherlands.
+
+
+        </p>
+
+        <h3>HomeBar</h3>
+        <p class="description-centered">
+
+          Powerful search web app that enables you to unlock cocktails you can
+          already make with what's in your pantry!
+          Enter your spirits and mixers and find which cocktails you have
+          at your disposal - as well as those that require only one or two extra
+          ingredients.
+          Save the cocktails and find your grocery list.
+
+
+        </p>
+
+
+      </div>
+
+
+
+
+    </div>
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+      </div>
+    </div>
+
   </body>
 </html>
